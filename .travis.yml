@@ -18,7 +18,6 @@ cache:
   directories:
   - $HOME/.cache/pip
 install:
-- \[ "$TRAVIS_PYTHON_VERSION" = "3.2" ] || pip install --upgrade pip
 - pip install pyenchant
 - pip install regex
 - pip install pyflakes
